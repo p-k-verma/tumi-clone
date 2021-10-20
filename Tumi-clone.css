@@ -1,0 +1,268 @@
+/* * {
+    font-family: proxima-nova,sans-serif;
+} */
+
+/* working area-1 */
+.container-fluid #top-header {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.container-fluid .row .parts {
+    color: #999;
+}
+.container-fluid .row .parts:hover{ 
+    color: #c41e3a;
+}
+.container-fluid .row .parts-1 {
+    color: #222;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    padding: 6px 20px;
+}
+.container-fluid .row .parts-2 {
+    color: #222;
+    padding: 16px 32px;
+    font-weight: 600;
+}
+.container-fluid .row .parts-2:hover {
+    color: white;
+    background-color: #222;
+    text-decoration: none;
+}
+.container-fluid .row .parts-3 {
+    color: #c41e3a;
+    padding: 16px;
+}
+.container-fluid .row .parts-3:hover {
+    color: white;
+    background-color: #c41e3a;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* working area-2 not needed */
+/* working area-3 */
+
+/* serch box data */
+.has-search .form-control {
+    padding-left: 2.0rem;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    height: 30px;
+    color: #222;
+    font-weight: 700;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    line-height: 2.0rem;
+    text-align: center;
+    pointer-events: none;
+    color: #222;
+    font-size: 15px;
+}
+
+/* nav bar dada */
+.navbar .navbar-nav .main-menu {
+    color: #222;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 4.3;
+    font-family: proxima-nova,sans-serif;
+    padding-bottom: 0px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+.carousel-indicators .active {
+    background-color: #c41e3a;
+}
+#myControl {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 800;
+}
+.carousel-caption .name-tag {
+    width: 150px;
+    height: 27px;
+    background-color: white;
+    color: #000;
+    border-color: #000;
+    font-weight: 400;
+    font-size: 14px;  
+}
+.carousel-item .name-tag-header {
+    bottom: 150px;
+    left: 140px;
+}
+
+/* Mega menu  */
+
+.navbar-expand .navbar-nav .dropdown-menu {
+    position: fixed;
+    width: 88%;
+    top: 21%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+/* shop by category */
+
+.shop-category .line-row {
+    background-color: #dfdfdf;
+    height: 1px;
+}
+.container-fluid .text-item {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+/* <!-- after category combination image --> */
+.container-fluid .upperline {
+    color: #c41e3a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-fluid .lowerline {
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container-fluid .link-collection {
+    color: #000;
+    border-bottom: 2px solid #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* <!-- WATCH THE WORLD OF TUMI --> */
+
+.container-fluid .card_name {
+    padding: 30px;
+}
+
+hr {
+    border-top: 1px solid #dfdfdf;
+}
+
+/* footer */
+
+#footer {
+    background-color: #ddd;
+}
+
+.border-for {
+    padding: 33px 40px;
+    border-right: 1px solid #fff;
+}
+
+#footer h5 {
+    color: #444;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 700;
+}
+
+#footer ul li a {
+    color: #000;
+    font-size: 13px;
+    margin: 12px 0;
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+#footer li {
+    margin: 4px 0;
+}
+
+#footer ul li a:hover {
+    color: #c41e3a;
+}
+
+.list-unstyled p {
+    font-size: 13px;
+    margin-left: 17px;
+}
+
+.list-unstyled .a-tag {
+    font-weight: 650;
+}
+
+/* Social-media */
+
+
+
+.foot-news-icon .social-media {
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.for-news-latter {
+    padding: 33px 33px 40px 100px;
+}
+
+.for-news-latter h3 {
+    font-size: 13px;
+    padding: 10px 0;
+    letter-spacing: .025em;
+    font-weight: 700;
+    margin: 0px;
+    color: #444;
+}
+
+.inline-input .form-control {
+    border: 1px solid #ccc;
+    height: 31px;
+    border-radius: 0px;
+    font-size: small;
+}
+
+.submit-button {
+    border: 0;
+    color: #fff;
+    padding: 0 20px;
+    background-color: #ccc;
+    border-radius: 0;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+.submit-button:hover {
+    color: #c41e3a;
+}
+
+.copy-right-sec {
+    padding: 10px 30px;
+}
+.copy-right-sec p {
+    font-size: 13px;
+    padding-top: 19px;
+    text-align: right;
+}
+
+.social-media ul li a i {
+    padding: 10px;
+    font-size: x-large;
+}
